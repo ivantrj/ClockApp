@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct StopwatchView: View {
     @State private var time = 0.0
     @State private var isRunning = false
     
@@ -63,5 +63,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    StopwatchView()
 }
