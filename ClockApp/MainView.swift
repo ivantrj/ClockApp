@@ -2,7 +2,7 @@
 //  MainView.swift
 //  ClockApp
 //
-//  Created by ivan ruwido  on 21.11.23.
+//  Created by ivan on 21.11.23.
 //
 
 import SwiftUI
@@ -14,6 +14,12 @@ struct MainView: View {
                 .tabItem {
                     Image(systemName: "stopwatch")
                     Text("Stopwatch")
+                }
+            
+            AlarmView()
+                .tabItem {
+                    Image(systemName: "alarm")
+                    Text("Alarm")
                 }
         }
     }

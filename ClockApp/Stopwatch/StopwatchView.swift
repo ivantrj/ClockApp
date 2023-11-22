@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  ClockApp
 //
-//  Created by ivan  on 21.11.23.
+//  Created by ivan on 21.11.23.
 //
 
 import SwiftUI
