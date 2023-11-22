@@ -21,6 +21,12 @@ struct MainView: View {
                     Image(systemName: "alarm")
                     Text("Alarm")
                 }
+            
+            TimerView()
+                .tabItem {
+                    Image(systemName: "timer")
+                    Text("Timer")
+                }
         }
     }
 }

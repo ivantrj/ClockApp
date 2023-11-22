@@ -14,6 +14,7 @@
 		2CD54C7D2B0CF9C6009B2BAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD54C7C2B0CF9C6009B2BAE /* Preview Assets.xcassets */; };
 		2CD54C852B0D0153009B2BAE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54C842B0D0153009B2BAE /* MainView.swift */; };
 		2CD63EC82B0E310A00C9B509 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD63EC72B0E310A00C9B509 /* AddAlarmView.swift */; };
+		2CD63ECB2B0E563C00C9B509 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD63ECA2B0E563C00C9B509 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2CD54C7C2B0CF9C6009B2BAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CD54C842B0D0153009B2BAE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2CD63EC72B0E310A00C9B509 /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
+		2CD63ECA2B0E563C00C9B509 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				2CD54C842B0D0153009B2BAE /* MainView.swift */,
 				2CD54C832B0D013E009B2BAE /* Stopwatch */,
 				2C1CDC772B0D01CA00C3B24A /* Alarm */,
+				2CD63EC92B0E562A00C9B509 /* Timer */,
 				2CD54C792B0CF9C6009B2BAE /* Assets.xcassets */,
 				2CD54C7B2B0CF9C6009B2BAE /* Preview Content */,
 			);
@@ -90,6 +93,14 @@
 				2CD54C772B0CF9C4009B2BAE /* StopwatchView.swift */,
 			);
 			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		2CD63EC92B0E562A00C9B509 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				2CD63ECA2B0E563C00C9B509 /* TimerView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD63ECB2B0E563C00C9B509 /* TimerView.swift in Sources */,
 				2CD63EC82B0E310A00C9B509 /* AddAlarmView.swift in Sources */,
 				2CD54C782B0CF9C4009B2BAE /* StopwatchView.swift in Sources */,
 				2CD54C852B0D0153009B2BAE /* MainView.swift in Sources */,

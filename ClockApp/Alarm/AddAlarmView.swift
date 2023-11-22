@@ -22,7 +22,7 @@ struct AddAlarmView: View {
                 
                 
                 GroupBox {
-                    TextField("Lable", text: $label)
+                    TextField("Label", text: $label)
                         .multilineTextAlignment(.center)
                 }
                 .padding()
